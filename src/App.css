@@ -1,0 +1,51 @@
+.App {
+  width: 40%;
+  margin: auto;
+  padding: 50px;
+}
+
+.App * {
+  font-weight: bold !important;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.errMsg {
+  color: red;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  padding: 40px;
+}
+
+form h2 {
+  margin-bottom: 0px;
+}
+
+form hr {
+  width: 80%;
+  margin: 20px auto;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input {
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  margin-top: 7px;
+}
+
+form button {
+  padding: 10px 0px;
+  cursor: pointer;
+}
