@@ -20,7 +20,7 @@ export default function InputForm() {
           <h2>LOGIN</h2>
           <hr />
           <label htmlFor="username">Username: </label>
-          <Field type="username" name="username" id="username" />
+          <Field type="text" name="username" id="username" />
           <ErrorMessage name="username" className="errMsg" component="div" />
           <br />
           <label htmlFor="password">Password: </label>
